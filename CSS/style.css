@@ -1,0 +1,97 @@
+body{
+
+ background-image: url(../képek/2.png);
+ background-size: cover;
+ background-repeat: no-repeat;
+ background-position: center;
+ background-attachment: fixed;
+
+}
+
+
+
+.regis{
+
+  margin: 50px;
+  width: 50%;
+  
+  padding: 10px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color:transparent;
+  } 
+  
+   li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+   
+
+   li a:hover {
+    background-color: #555;
+     
+   }
+   .logo-background {
+    width: 150px;  /* Szélesség beállítása */
+    height: 100px; /* Magasság beállítása */
+    background-image: url("../képek/logo.png");
+    background-size: contain;  /* A kép méretét tartsa meg */
+    background-repeat: no-repeat; /* Ne ismételje a képet */
+    background-position: center; /* Középre helyezi a képet */
+   }
+
+.submit{
+    margin: 10px;
+    
+    border: 3px solid lightblue;
+    padding: 10px;
+}
+
+.dropbtn {
+ 
+  color:grey;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: transparent;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: rgb(90, 140, 190)}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+.nav-item{
+
+  background-color: transparent;
+}

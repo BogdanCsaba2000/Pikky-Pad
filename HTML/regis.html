@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="undefined" crossorigin="anonymous">
+    <link href="../CSS/style.css" rel="stylesheet">
+    <title>Regisztráció</title>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">PIKKY PAD</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="home.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="login.html">Bejelentkezés</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="regis.html">Regisztráció</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+             Korosztályok
+            </a>
+             <div class="dropdown-content">
+                <a  href="./korosztaly1.html">3-5 éveseknek</a>
+                <a  href="./korosztaly2.html">6-9 éveseknek:</a>
+               
+             </div>
+          </li>
+          
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Keresés</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+    <form class="row g-3">
+       <div class="regis">
+        <div class="col-md-6">
+          <label for="inputZip" class="form-label"> Név</label>
+          <input type="text" class="form-control" id="inputZip">
+        </div>
+        <div class="col-md-6">
+          <label for="inputEmail4" class="form-label">Email</label>
+          <input type="email" class="form-control" id="inputEmail4">
+        </div>
+        <div class="col-md-6">
+          <label for="inputPassword4" class="form-label">Jelszó</label>
+          <input type="password" class="form-control" id="inputPassword4">
+        </div>
+        <div class="col-6">
+          <label for="inputAddress" class="form-label">Lakcím</label>
+          <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+        </div>
+        
+        <div class="col-md-6">
+          <label for="inputCity" class="form-label">  Város</label>
+          <input type="text" class="form-control" id="inputCity">
+        </div>
+        <div class="col-md-4">
+          <label for="inputState" class="form-label">Neme</label>
+          <select id="inputState" class="form-select">
+            <option selected>...</option>
+            <option>Fiú</option>
+            <option>Lány</option>
+          </select>
+        </div>
+     
+        <div class="col-12">
+          <button type="submit" class="singin">Regisztráció</button>
+        </div>
+    </div>
+      </form>
+
+      <script href = "../SCRIPT/script.js"></script>
+    
+</body>
+</html>
